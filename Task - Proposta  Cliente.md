@@ -1,5 +1,6 @@
-# Rete
-
+# Rete 
+ [group:: [[Rete]]] [assignee:: [[Regaldo]]] [assignee:: [[Rosso]]] [assignee:: [[Moccia]]] [assignee:: [[Valenza]]] 
+[referente:: [[Regaldo]]]
 - Cartine macro fatta per ogni hotel
 	- Predispozione dispositivi (no dettagli)
 		- AP, Router, Switch, PC end point, firewall
@@ -17,14 +18,15 @@
 - case gestite tramite vpn into ced
 ## VPN
 -  Che tecnologia, hostata server da noi con protocollo wireguard / Compriamo paloalto / fortinet / cisco 
-# Proposta gestione infra mini-case
+## Proposta gestione infra mini-case
+> Da revisionare tutti insieme appena si ha una proposta
 - VPN al ced
 - Cartina di una mini-casa
 - Servizi erogati per smartv + wifi
 - 1 router tuttofare 
 
-# Architettura software
-
+# Architettura software 
+[group:: [[Infra CED]]]  [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
 ## Modalità di gestione degli utenti (gruppi, accessi, etc.)
 - Windows server DC, AD
 ## Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati 
