@@ -1,4 +1,3 @@
-# Regaldo
 
 Ruolo:: 
 Area:: 
