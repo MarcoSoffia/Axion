@@ -94,6 +94,10 @@ NAS / Backup appliance / Storage dedicato
 - [ ] Una infografica / immagine che mostra la gestione utenti tramite AD
 - [ ] Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati 
 - [ ] Mostrare come con le GPO di windows possiamo granularmente agire sugli end-point
+- [ ] Mostrare possibilità di accesso remoto da qualsiasi luogo
+
+
+https://lucid.app/lucidchart/592c2f3c-7dfa-4cb7-b8c7-71d9c38a5e32/edit?invitationId=inv_6141ee99-ac11-48ab-b3dc-96332b6d8281
 
 ## Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati 
 - File Server Windows con condivisioni SMB integrate con Active Directory

@@ -22,13 +22,6 @@
   19. Gli accessi da remoto devono essere permessi solo all’IT o anche a direzione/contabilità?
   20. Serve autenticazione forte per VPN/accessi remoti?
   21. Cosa deve succedere se un PC reception viene compromesso: blocco immediato, isolamento rete, ripristino rapido?
-
-# Wi-Fi e ospiti
-  24. Gli ospiti devono avere solo Internet o anche accesso a servizi interni dell’hotel?
-  25. Serve una scadenza automatica delle credenziali Wi-Fi a fine soggiorno oppure un wifi fisso con psw fissa?
-  26. Nelle sale meeting il Wi-Fi eventi deve essere separato dal Wi-Fi ospiti standard?
-  27. Il personale deve usare una rete Wi-Fi separata con login aziendale?
-
 #  Mini-case de Il Sogno
   29. Le mini-case devono essere gestite come piccole reti autonome o come estensione controllata della rete aziendale? (Accedono al media server tramite api pubbliche dietro AUTH oppure sono nella vpn?)
   30. In caso di guasto della connessione, quali servizi devono continuare a funzionare?
