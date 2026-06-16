@@ -102,6 +102,8 @@ https://lucid.app/lucidchart/592c2f3c-7dfa-4cb7-b8c7-71d9c38a5e32/edit?invitatio
 ## Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati 
 - File Server Windows con condivisioni SMB integrate con Active Directory
 ## Ulteriori soluzioni per la sicurezza informatica (protezione degli endpoint, etc.)
+Security By Design
+
 se un PC della reception, un tablet in camera, una Smart TV, un laptop dell’IT o un server viene compromesso, cosa succede e come lo preveniamo/rileviamo? (aggancio sicurezza nelle diapositive)
 
 "password robuste, aggiornamenti automatici, blocco schermo, account non amministratore per gli utenti normali, disco cifrato sui portatili, disabilitazione di servizi inutili, controllo USB dove necessario." - Tutto gestisto tramite AD e DC

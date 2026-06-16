@@ -1,11 +1,10 @@
 # Gestione utenti e accessi
-   1. Il personale deve poter lavorare da qualunque hotel o solo dalla propria sede?
-  2. Alcuni uffici devono vedere dati di tutti gli hotel, oppure solo la direzione/contabilità centrale?
-  3. La reception di un hotel deve poter accedere alle prenotazioni/servizi degli altri hotel?
-  4. L’IT deve essere centralizzato al CED de Il Sogno o ogni sede deve avere autonomia minima? (Es ogni Ufficio di informatica ha un piccolo storage con le proprie guide in loco)
-  5. I collaboratori esterni, fornitori o manutentori devono avere accessi temporanei?
-  6. Gli account devono essere personali per ogni dipendente o esistono postazioni condivise, per esempio reception?
-  7. Serve tracciare chi accede/modifica documenti sensibili?
+  1. Alcuni uffici devono vedere dati di tutti gli hotel, oppure solo la direzione/contabilità centrale?
+  2. La reception di un hotel deve poter accedere alle prenotazioni/servizi degli altri hotel?
+  3. L’IT deve essere centralizzato al CED de Il Sogno o ogni sede deve avere autonomia minima? (Es ogni Ufficio di informatica ha un piccolo storage con le proprie guide in loco)
+  4. I collaboratori esterni, fornitori o manutentori devono avere accessi temporanei?
+  5. Gli account devono essere personali per ogni dipendente o esistono postazioni condivise, per esempio reception?
+  6. Serve tracciare chi accede/modifica documenti sensibili?
 
 #  Archiviazione e dati
   8. I dati devono essere tutti centralizzati nel CED oppure alcune sedi devono avere copie locali?
