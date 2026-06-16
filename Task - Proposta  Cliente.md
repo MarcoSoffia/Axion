@@ -13,20 +13,68 @@
 - Smart TV hanno sia i contenuti multimediali che però internet (es. yt)
 - Budget possibile
 ## Firewall
+Firewall NGFW di filiale basato su pfSense, con VPN IPsec site-to-site verso il CED, routing inter-VLAN, NAT, filtraggio del traffico e local breakout Internet per ospiti e dispositivi multimediali.
 
-- firewall serio al ced 
+La Meraviglia Firewall  ── VPN site-to-site ┐
+                                            │
+L'Incanto Firewall      ── VPN site-to-site ├── Firewall centrale CED ── Server / NAS / Gestionale
+                                            │
+Il Sogno / mini-case    ── LAN locale ──────┘
+                                            │
+Lavoratori remoti       ── VPN SSL/IPsec/WireGuard + MFA
+
+Firewall centrale: **Next Generation Firewall**
+
+Possibilità di un secondo firewall ridondante, chiaramente aumento di costi
+Perché se il firewall centrale cade, perdete:
+- VPN degli hotel;
+- accesso remoto;
+- accesso ai servizi centralizzati;
+- gestione delle mini-case;
+- parte del gestionale.
+
+
 - DHCP Relay sui firewall
 - firewall ok / vpn in tutti gli altri
 - case gestite tramite vpn into ced
+
+### Hotel La Meraviglia - 100 Camere
+Firewall pfSense di filiale - fascia media
+- VPN IPsec site-to-site verso CED
+- routing tra VLAN
+- NAT verso Internet locale
+- firewall rules tra VLAN
+- gestione traffico guest / camere / Smart TV / tablet
+- supporto dual WAN opzionale
+- logging verso CED
+- IDS/IPS opzionale
+### Hotel L'incanto - 30 Camere
+Firewall pfSense di filiale - fascia small/medium
+- VPN IPsec site-to-site verso CED
+- routing inter-VLAN
+- NAT Internet locale
+- separazione rete ospiti / staff / camere
+- logging verso CED
+- regole firewall locali
+### Hotel il Sogno - Mini case
+Il router della mini-casa fa partire una **VPN client site-to-site** verso il CED
+Data la forma piccola delle mini case utlizziamo WireGuard che è leggero, stabile e adatto a tanti tunnel piccoli, invece che *IpSec*.
 ## VPN
--  Che tecnologia, hostata server da noi con protocollo wireguard / Compriamo paloalto / fortinet / cisco 
-- Vps site to site
+Per le VPN tra hotel e CED usiamo **IPsec site-to-site con IKEv2**
+
+pfSense supporta IPsec come soluzione standard per VPN site-to-site e accessi remoti. Una VPN IPsec site-to-site collega due reti come se fossero direttamente connesse, lasciando comunque la possibilità di filtrare il traffico con regole firewall.
+
+Negli hotel il firewall locale deve fa uscire direttamente su Internet:
+Guest Wi-Fi,Smart TV,tablet, camere, streaming, sale meeting, dispositivi clienti
+
+Verso il CED deve andare solo il traffico aziendale.
+
+Questa scelta evita di saturare la VPN centrale con traffico inutile, per esempio streaming delle Smart TV o traffico degli ospiti.
+
 ## Proposta gestione infra mini-case
-> Da revisionare tutti insieme appena si ha una proposta
-- VPN al ced
-- Cartina di una mini-casa
-- Servizi erogati per smartv + wifi
-- 1 router tuttofare 
+Router che apre con Wireguard vpn automatica al CED
+Smart TV
+Guest wifi
 
 # Architettura software 
 [group:: [[Infra CED]]]  [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
@@ -90,11 +138,15 @@ NAS / Backup appliance / Storage dedicato
 - copia offsite/cloud
 
 ### Da fare
-- [ ] Topologia Infra windows [assignee:: [[Soffia + Bracco]]]
-- [ ] Una infografica / immagine che mostra la gestione utenti tramite AD
-- [ ] Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati 
+- [x] Topologia Infra windows [assignee:: [[Soffia + Bracco]]] ✅ 2026-06-16
+- [x] Una infografica / immagine che mostra la gestione utenti tramite AD ✅ 2026-06-16
+- [x] Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati ✅ 2026-06-16
 - [ ] Mostrare come con le GPO di windows possiamo granularmente agire sugli end-point
-- [ ] Mostrare possibilità di accesso remoto da qualsiasi luogo
+- [x] Mostrare possibilità di accesso remoto da qualsiasi luogo + ✅ 2026-06-16
+- [ ] Soluzione multimediale 
+- [ ] VPN
+- [ ] Firewall
+- [ ] Subappaltare Climatizzatore
 
 
 https://lucid.app/lucidchart/592c2f3c-7dfa-4cb7-b8c7-71d9c38a5e32/edit?invitationId=inv_6141ee99-ac11-48ab-b3dc-96332b6d8281
