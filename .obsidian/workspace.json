@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ddac85f25ad7df6a",
@@ -175,30 +174,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
     }
   },
   "active": "6f2056bc9f963466",
   "lastOpenFiles": [
-    "staff/Regaldo.md",
+    "ProgettazioneHotel/HOTEL_3 Sogno primo piano.JPG",
+    "ProgettazioneHotel/HOTEL_3 Sogno piano terra.JPG",
+    "Rete.md",
+    "ProgettazioneHotel/HOTEL_2 Incanto.JPG",
+    "ProgettazioneHotel/HOTEL_1 La Meraviglia.JPG",
     "staff/Valenza.md",
     "staff/Rosso.md",
     "staff/Soffia.md",
-    "staff/Bracco.md",
+    "staff/Regaldo.md",
     "staff/Moccia.md",
+    "staff/Bracco.md",
     "staff",
+    "ProgettazioneHotel/CartineSpoglie/HOTEL_1 La Meraviglia.png",
+    "ProgettazioneHotel/CartineSpoglie/HOTEL_2 Incanto.png",
+    "ProgettazioneHotel/CartineSpoglie/HOTEL_3 Sogno piano terra.png",
+    "ProgettazioneHotel/CartineSpoglie/HOTEL_3 Sogno primo piano.png",
+    "ProgettazioneHotel/CartineSpoglie",
+    "ProgettazioneHotel/Alta_risoluzione/HOTEL_3 Sogno primo piano.png",
+    "ProgettazioneHotel/Alta_risoluzione/HOTEL_3 Sogno piano terra.png",
+    "ProgettazioneHotel/Alta_risoluzione/HOTEL_2 Incanto.png",
+    "ProgettazioneHotel/Alta_risoluzione",
+    "Domande-Software.md",
     "Architettura software CED.drawio",
     "Software.md",
     "Task.md",
     "Task - Proposta  Cliente.md",
-    "Rete.md",
-    "Domande-Software.md",
     "Axion.md"
   ]
 }

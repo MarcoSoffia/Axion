@@ -1,10 +1,13 @@
 #### Hotel 5 stelle lusso: La meraviglia
 1)  Idea: uno switch principale e il router nell'ufficio informatica. Va bene predisporre switch di distribuzione su ogni piano e ulteriori switch per alimentare eventuali access point, telecamere e telefoni?
 2) Creare una Vlan per ogni ambito d'interesse (es. vlan management, staff, sicurezza, ospiti, sala eventi, domotica/IoT)?
-3) Ufficio "informatica" predisponiamo un server web? Creazione sito web o piattaforma da cui potersi collegare ai servizi? 
+3) Ufficio "informatica" predisponiamo un server web? Creazione sito web o piattaforma da cui potersi collegare ai servizi? Predisporre un UPS per garantire continuità in caso di blackout? Riguarda scelta del rack e switch PoE.
 4) Gli indirizzi IP verranno gestiti da un server DHCP a parte? Facciamo un pool di indirizzi IP tramite WLC, Firewall o Primary Domain Controller?
 5) L'area di copertura degli access point? Prevedere un access point per ogni stanza o cercare soluzioni alternative come l'utilizzo degli extender e un access point per ogni piano? Il Tutto gestito da un controller WLAN (WLC). 
 6) Il Firewall deve limitare la banda per ogni singolo utente e prevedere una connessione preferenziale per la direzione e la reception? Come limitiamo la comunicazione tra i vari utenti/guests?
+7) La connessione internet deriva dall'ufficio "informatica". La canalizzazione delle connessioni di rete sono già previste o si parte da zero? quante prese RJ45 (presa ethernet) prevedere?
+8) Le sale "meeting" devono prevedere connessione cablata o connessione Wi-Fi? Chi gestisce la rete, personale IT o ospiti in autonomia?
+9) Nella sala "reception" quante postazioni di lavoro ci sono al banco? prevedere un sistema di telefonia VoIP?
 
 #### Boutique Hotel L'Incanto
 
@@ -23,7 +26,11 @@
     prenotazioni ristorante?
     richieste manutenzione?
     check-out online?
-    
+4) Ogni mini-casa riceve segnale wireless distribuita sul territorio - collegamento cablato in ogni casa con AP o tutto via wireless end-to-end?
+5) i clienti fanno accesso con credenziali oppure utilizzare rete guest aperta? per scelta wireless controller e firewall.
+6) le postazioni di lavoro nelle varie sale, sono quelle indicate dalla piantina? quante prese per postazione? (PC + telefono VoIP o dispositivo secondario)
+7) in caso d'interruzione servizio tra reception e mini-casa - prevedere soluzione (es. sim LTE di backup o doppio link radio) oppure no?
+8) 
 
 
 
