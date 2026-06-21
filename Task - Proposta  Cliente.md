@@ -119,7 +119,9 @@ NPS01
 - Autenticazione Wi-Fi aziendale
 - Autenticazione VPN
 
-Server fisico 1 / Hypervisor 1**ESXi** » Vendi il fatto che tiri su facilmente vm
+Due server fisici con hypervisor ESXi per virtualizzare tutti i servizi: garantiscono isolamento tra carichi critici (DC, FS, MEDIA), ridondanza del dominio Active Directory e spazio per crescere senza aggiungere hardware. Con un solo server avremmo un unico punto di guasto; con due possiamo distribuire le VM in modo che il dominio e i servizi restino attivi anche durante manutenzione o failure di un host.
+
+Server fisico 1 / Hypervisor 1 **ESXi** » Vendi il fatto che tiri su facilmente vm
 > Lasciamo spazio per extra VM per servizi
 - DC01
 - FS01
