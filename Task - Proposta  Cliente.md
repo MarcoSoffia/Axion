@@ -141,12 +141,12 @@ NAS / Backup appliance / Storage dedicato
 - [x] Topologia Infra windows [assignee:: [[Soffia + Bracco]]] ✅ 2026-06-16
 - [x] Una infografica / immagine che mostra la gestione utenti tramite AD ✅ 2026-06-16
 - [x] Soluzione per l’archiviazione, protezione, gestione e condivisione dei dati ✅ 2026-06-16
-- [ ] Mostrare come con le GPO di windows possiamo granularmente agire sugli end-point
+- [x] Mostrare come con le GPO di windows possiamo granularmente agire sugli end-point ✅ 2026-06-16
 - [x] Mostrare possibilità di accesso remoto da qualsiasi luogo + ✅ 2026-06-16
-- [ ] Soluzione multimediale 
-- [ ] VPN
-- [ ] Firewall
-- [ ] Subappaltare Climatizzatore
+- [x] Soluzione multimediale ✅ 2026-06-16
+- [x] VPN ✅ 2026-06-16
+- [x] Firewall ✅ 2026-06-16
+- [x] Subappaltare Climatizzatore ✅ 2026-06-16
 
 
 https://lucid.app/lucidchart/592c2f3c-7dfa-4cb7-b8c7-71d9c38a5e32/edit?invitationId=inv_6141ee99-ac11-48ab-b3dc-96332b6d8281
