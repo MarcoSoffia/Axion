@@ -11,13 +11,14 @@
 - [x] Setup team, nome, identita brand e strumenti di lavoro ✅ 2026-06-09
 - [x] Prima idea di proposta cliente ✅ 2026-06-09
 - [x] Materiale presentazione cliente / slide interattive ✅ 2026-06-22
-- [ ] Inizio implementazione e prima demo 📅 2026-07-13
-- [ ] Consegna finale 📅 2026-07-24
+- [ ] Inizio implementazione e prima demo 📅 2026-07-13 Urgent priority
+- [ ] Consegna finale 📅 2026-07-24 Low priority
 
 ## Fase attuale - Creazione documentazione tecnica
 
 Obiettivo: produrre una documentazione tecnica coerente, consegnabile e leggibile anche dopo la presentazione commerciale. 
 ### Struttura del documento tecnico
+- low priority 
 Le cose da scrivere nella relazione tecnica
 - [ ] Definire indice della documentazione tecnica [group:: [[Documentazione tecnica]]]
 	- [ ] Scopo del progetto e perimetro delle tre strutture
@@ -34,7 +35,7 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Allegati tecnici separati per mappe, diagrammi e distinta dispositivi
 
 ### Documentazione rete [referee:: [[Regaldo]]]
-
+- High priority
 - [ ] Documentare topologia logica della rete [group:: [[Rete]]] [assignee:: [[Regaldo]]] [assignee:: [[Valenza]]] [assignee:: [[Moccia]]]
 	- [ ] Definire le tecnologie usare (Es. Cisco)
 	- [ ] Piano di indirizzamento
@@ -68,127 +69,92 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Kit router mini-case preconfigurato per sostituzione rapida
 
 ### Documentazione CED e infrastruttura Windows
-
+- High priority
 - [ ] Documentare architettura CED [group:: [[Infra CED]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
-	- [ ] Due server fisici con hypervisor ESXi
-	- [ ] Distribuzione VM tra host 1 e host 2
-	- [ ] NAS / backup appliance / storage dedicato
-	- [ ] Condizionatore CED
-	- [ ] Spazio per VM future
-- [ ] Documentare servizi Windows
-	- [ ] DC01: Active Directory Domain Services, DNS, DHCP centralizzato, Global Catalog
-	- [ ] DC02: ridondanza dominio, DNS, Global Catalog, DHCP failover
-	- [ ] FS01: file server SMB, permessi NTFS, cartelle reparto, quote, versioning, auditing
-	- [ ] BK01 / NAS: backup server, snapshot, repository e copia offsite/cloud
-	- [ ] NPS01: RADIUS/NPS per Wi-Fi aziendale e VPN
-	- [ ] MEDIA01: contenuti multimediali, se necessario
-	- [ ] Server gestionale servizi hotel
-- [ ] Documentare gestione utenti e accessi
-	- [ ] Account personali per dipendenti
-	- [ ] Reception con login personale su postazioni condivise
-	- [ ] Uffici con postazioni legate a persona/ruolo
-	- [ ] Gruppi Active Directory per direzione, contabilita, reception, IT, housekeeping e sale/eventi
-	- [ ] Accesso ai dati inter-hotel per direzione/contabilita e reception secondo necessita
-	- [ ] Smart working per ruoli autorizzati tramite VPN
-- [ ] Documentare GPO e hardening endpoint
-	- [ ] Policy Password robuste
-	- [ ] Blocco schermo automatico
-	- [ ] Aggiornamenti Windows forzati e programmati
-	- [ ] Account utente non amministratore
-	- [ ] Cifratura disco per portatili
-	- [ ] Disabilitazione servizi inutili
-	- [ ] Controllo USB dove necessario
-	- [ ] Patch management gestito centralmente
+	- [ ] Due server fisici con hypervisor ESXi [assignee:: [[Soffia]]]
+	- [ ] Distribuzione VM tra host 1 e host 2 [assignee:: [[Soffia]]]
+	- [ ] NAS / backup appliance / storage dedicato [assignee:: [[Soffia]]]
+	- [ ] Condizionatore CED [assignee:: [[Soffia]]]
+	- [ ] Spazio per VM future [assignee:: [[Soffia]]]
+- [ ] Documentare servizi Windows [assignee:: [[Soffia]]]
+	- [ ] DC01: Active Directory Domain Services, DNS, DHCP centralizzato, Global Catalog [assignee:: [[Soffia]]]
+	- [ ] DC02: ridondanza dominio, DNS, Global Catalog, DHCP failover [assignee:: [[Soffia]]]
+	- [ ] FS01: file server SMB, permessi NTFS, cartelle reparto, quote, versioning, auditing [assignee:: [[Soffia]]]
+	- [ ] BK01 / NAS: backup server, snapshot, repository e copia offsite/cloud [assignee:: [[Soffia]]]
+	- [ ] NPS01: RADIUS/NPS per Wi-Fi aziendale e VPN [assignee:: [[Soffia]]]
+	- [ ] MEDIA01: contenuti multimediali, se necessario [assignee:: [[Soffia]]]
+	- [ ] Server gestionale servizi hotel [assignee:: [[Soffia]]] 
+- [ ] Documentare gestione utenti e accessi [assignee:: [[Bracco]]]
+	- [ ] Account personali per dipendenti [assignee:: [[Bracco]]]
+	- [ ] Reception con login personale su postazioni condivise [assignee:: [[Bracco]]]
+	- [ ] Uffici con postazioni legate a persona/ruolo [assignee:: [[Bracco]]]
+	- [ ] Gruppi Active Directory per direzione, contabilita, reception, IT, housekeeping e sale/eventi [assignee:: [[Bracco]]]
+	- [ ] Accesso ai dati inter-hotel per direzione/contabilita e reception secondo necessita [assignee:: [[Bracco]]]
+	- [ ] Smart working per ruoli autorizzati tramite VPN [assignee:: [[Bracco]]]
+- [ ] Documentare GPO e hardening endpoint [assignee:: [[Bracco]]]
+	- [ ] Policy Password robuste [assignee:: [[Bracco]]]
+	- [ ] Blocco schermo automatico [assignee:: [[Bracco]]]
+	- [ ] Aggiornamenti Windows forzati e programmati [assignee:: [[Bracco]]]
+	- [ ] Account utente non amministratore [assignee:: [[Bracco]]]
+	- [ ] Cifratura disco per portatili [assignee:: [[Bracco]]]
+	- [ ] Disabilitazione servizi inutili [assignee:: [[Bracco]]]
+	- [ ] Controllo USB dove necessario [assignee:: [[Bracco]]]
+	- [ ] Patch management gestito centralmente [assignee:: [[Bracco]]]
 
-### Documentazione dati, sicurezza e procedure [group:: [[Infra CED]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
-
-- [ ] Documentare archiviazione, protezione, gestione e condivisione dati
-	- [ ] File Server Windows con condivisioni SMB integrate con Active Directory
-	- [ ] Cartelle di reparto e permessi NTFS
-	- [ ] Cartella condivisa inter-hotel per parte gestionale
-	- [ ] Versioning, quote e auditing
-	- [ ] Backup, snapshot, restore e copia offsite/cloud
-- [ ] Documentare sicurezza informatica security-by-design
-	- [ ] Segmentazione VLAN e regole firewall
-	- [ ] Protezione PC, server, tablet, Smart TV e dispositivi camere
-	- [ ] MFA per VPN/accessi remoti
-	- [ ] Logging centralizzato
-	- [ ] Tracciamento accesso/modifica documenti sensibili come proposta aggiuntiva
-	- [ ] Monitoraggio/alert heartbeat per mini-case
-- [ ] Scrivere procedure operative
-	- [ ] Onboarding nuovo dipendente
-	- [ ] Offboarding dipendente
-	- [ ] Cambio ruolo e aggiornamento gruppi AD
-	- [ ] Reset password e recupero account
-	- [ ] Creazione nuova postazione reception/ufficio
-	- [ ] Sostituzione router mini-casa con kit preconfigurato
-	- [ ] Verifica tunnel VPN hotel e mini-case
-	- [ ] Ripristino file da backup
-	- [ ] Gestione incidente endpoint compromesso
-	- [ ] Gestione credenziali e consegna al cliente, senza inserire segreti nel documento
+### Documentazione dati, sicurezza e procedure [group:: [[Infra CED]]] [group:: [[Rete]]]
+- low priority
+- [ ] Documentare archiviazione, protezione, gestione e condivisione dati [group:: [[Infra CED]]] 
+	- [ ] File Server Windows con condivisioni SMB integrate con Active Directory [group:: [[Infra CED]]] 
+	- [ ] Cartelle di reparto e permessi NTFS [group:: [[Infra CED]]] 
+	- [ ] Cartella condivisa inter-hotel per parte gestionale [group:: [[Infra CED]]] 
+	- [ ] Backup, snapshot, restore e copia offsite/cloud[group:: [[Infra CED]]] 
+- [ ] Documentare sicurezza informatica security-by-design [group:: [[Infra CED]]] [group:: [[Rete]]]
+	- [ ] Segmentazione VLAN e regole firewall [group:: [[Rete]]]
+	- [ ] Protezione PC, server, tablet, Smart TV e dispositivi camere [group:: [[Infra CED]]] 
+	- [ ] MFA per VPN/accessi remoti [group:: [[Rete]]]
+	- [ ] Monitoraggio/alert heartbeat per mini-case (Come lo faremmo) [group:: [[Infra CED]]] 
 
 ### Documentazione servizi cliente e multimediale [group:: [[Infra CED]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
-
-- [ ] Documentare soluzione Hospitality TV / Smart TV
-	- [ ] Piattaforma Hospitality TV LG Pro:Centric
-	- [ ] Welcome page
-	- [ ] Guida servizi hotel
-	- [ ] Promozioni spa/ristorante/eventi
-	- [ ] Contenuti locali e territorio
-	- [ ] Streaming con account personale ospite
-	- [ ] Logout/reset credenziali a fine soggiorno
-	- [ ] Nota licenze: l'hotel non fornisce account streaming condivisi
-- [ ] Documentare tablet in camera
-	- [ ] Richieste reception
-	- [ ] Prenotazioni servizi, spa, ristorante, eventi
-	- [ ] Comunicazioni in circuito chiuso
-	- [ ] Connessione ai servizi CED tramite rete/VPN prevista
-- [ ] Documentare sale meeting/eventi Presentazione e comunicazione
-	- [ ] Display professionale o videoproiettore
-	- [ ] Audio
-	- [ ] Videoconferenza Teams/Zoom/Google Meet
-	- [ ] Condivisione schermo cablata e wireless
-	- [ ] Wi-Fi dedicato ospiti/eventi
-	- [ ] Digital signage fuori sala collegato al CMS
+- low priority
 - [ ] Documentare CMS multimediale
 	- [ ] Gestione contenuti centralizzata
 	- [ ] Video, immagini, guide, eventi e promozioni
 	- [ ] Gestione per hotel, piano, sala e camera
 	- [ ] MEDIA01 come componente possibile
+	- [ ] Diffusione dei contenuti all'hospitality TV, sale meeting, camere
 
-### Hardware, software e budget [group:: [[Infra CED]]] [group:: [[Networking]]] 
-
+### Hardware, software e budget [group:: [[Infra CED]]] [group:: [[Rete]]] 
+- low priority
 - [ ] Trasformare [[Dispositivi]] in distinta tecnica allegata
 	- [ ] Server fisici / host ESXi
 	- [ ] NAS / storage
-	- [ ] Firewall centrali e di filiale
-	- [ ] Switch, PoE, rack, patch panel, prese RJ45
-	- [ ] Access point
-	- [ ] Router mini-case
-	- [ ] Hospitality TV / Smart TV
-	- [ ] Tablet in camera
-	- [ ] PC, telefoni VoIP, telecamere IP
-	- [ ] UPS e condizionatore CED
-	- [ ] Kit sale meeting e digital signage
+	- [ ] Firewall centrali e di filiale [group:: [[Rete]]]
+	- [ ] Switch, PoE, rack, patch panel, prese RJ45 [group:: [[Rete]]]
+	- [ ] Access point [group:: [[Rete]]]
+	- [ ] Router mini-case [group:: [[Rete]]]
+	- [ ] Hospitality TV / Smart TV 
+	- [ ] Tablet in camera [group:: [[Rete]]]
+	- [ ] PC, telefoni VoIP, telecamere IP [group:: [[Rete]]]
+	- [ ] UPS e condizionatore CED [group:: [[Rete]]]
+	- [ ] Kit sale meeting e digital signage [group:: [[Rete]]]
 - [ ] Documentare software e tecnologie implementate
 	- [ ] Windows Server / Active Directory
 	- [ ] ESXi
-	- [ ] pfSense
+	- [ ] pfSense [group:: [[Rete]]]
 	- [ ] WireGuard
-	- [ ] IPsec/IKEv2
+	- [ ] IPsec/IKEv2 [group:: [[Rete]]] 
 	- [ ] NPS/RADIUS
 	- [ ] SMB/NTFS
 	- [ ] CMS multimediale / Hospitality TV platform
 	- [ ] Software gestionale servizi cliente
-- [ ] Preparare sezione budget tecnico
+- [ ] Preparare sezione budget tecnico [group:: [[Rete]]] 
 	- [ ] Budget minimo
 	- [ ] Budget premium
-	- [ ] Opzioni aggiuntive: firewall ridondante, dual WAN, IDS/IPS, auditing avanzato, monitoraggio
 	- [ ] Stima specifiche server
 	- [ ] Costi Axion: analisi, progettazione, installazione, configurazione, test e documentazione finale
 
 ### Allegati e verifica finale [group:: [[Documentazione tecnica]]] 
-
+- low priority
 - [ ] Inserire allegati grafici
 	- [ ] Mappe logiche cablaggio da `img/logical/`
 	- [ ] Architettura logica CED
