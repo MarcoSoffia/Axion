@@ -143,13 +143,7 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Prenotazioni servizi, spa, ristorante, eventi
 	- [ ] Comunicazioni in circuito chiuso
 	- [ ] Connessione ai servizi CED tramite rete/VPN prevista
-- [ ] Documentare sale meeting/eventi￼￼Presentazione e comunicazione
-
-￼￼￼￼￼ Brand Axion, motto asse/direzione/movimento e team ✅ 2026-06-09
-￼￼￼￼￼ Presentazione cliente max 15 slide / 11 slide operative ✅ 2026-06-22
-￼￼￼￼￼ Sito presentazione interattiva ✅ 2026-06-22
-￼￼￼￼￼ Allineare documentazione tecnica con narrazione della presentazione
-￼￼￼￼￼ Preparare versione sintetica da affiancare alla documentazione completa
+- [ ] Documentare sale meeting/eventi Presentazione e comunicazione
 	- [ ] Display professionale o videoproiettore
 	- [ ] Audio
 	- [ ] Videoconferenza Teams/Zoom/Google Meet
