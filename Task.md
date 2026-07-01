@@ -3,10 +3,10 @@
 ## Gruppi
 
 - Networking: [[Regaldo]], [[Moccia]], [[Valenza]], [[Rosso]]
-- Infra IT: [[Soffia]], [[Bracco]]
-- Documentazione Tecnica: TBD
+- Infra-IT: [[Soffia]], [[Bracco]]
+- Documentazione tecnica: TBD
 
-## Scadenze e stato generale
+## Scadenze e stato generale [group:: [[Documentazione tecnica]]]
 
 - [x] Setup team, nome, identita brand e strumenti di lavoro ✅ 2026-06-09
 - [x] Prima idea di proposta cliente ✅ 2026-06-09
@@ -17,7 +17,7 @@
 ## Fase attuale - Creazione documentazione tecnica
 
 Obiettivo: produrre una documentazione tecnica coerente, consegnabile e leggibile anche dopo la presentazione commerciale. 
-### Struttura del documento tecnico
+### Struttura del documento tecnico [group:: [[Documentazione tecnica]]]
 - low priority 
 Le cose da scrivere nella relazione tecnica
 - [ ] Definire indice della documentazione tecnica [group:: [[Documentazione tecnica]]]
@@ -34,28 +34,27 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Documento tecnico principale
 	- [ ] Allegati tecnici separati per mappe, diagrammi e distinta dispositivi
 
-### Documentazione rete [referee:: [[Regaldo]]]
+### Documentazione rete [referee:: [[Regaldo]]] [group:: [[Rete]]]
 - High priority
-- [ ] Documentare topologia logica della rete [group:: [[Rete]]] [assignee:: [[Regaldo]]] [assignee:: [[Valenza]]] [assignee:: [[Moccia]]]
-	- [ ] Definire le tecnologie usare (Es. Cisco)
-	- [ ] Piano di indirizzamento
-		- [ ] Hotel il Sogno 
-		- [ ] Hotel La meraviglia
-		- [ ] Hotel L'incanto
-		- [ ] Esempio Mini Casa
-	- [ ] VLAN previste per management, staff, ospiti, sicurezza, sale eventi, domotica/IoT e dispositivi multimediali
-	- [ ] Separazione traffico guest / staff / camere / Smart TV / tablet
-- [ ] Documentare infrastruttura cablata
+- [ ] Documentare topologia logica della rete [group:: [[Rete]]] [assignee:: [[Rosso]]] [assignee:: [[Moccia]]]
+	- [ ] Piano di indirizzamento 
+		- [ ] Hotel il Sogno [assignee:: [[Rosso]]]
+		- [ ] Hotel La meraviglia [assignee:: [[Rosso]]] [assignee:: [[Moccia]]]
+		- [ ] Hotel L'incanto [assignee:: [[Moccia]]]
+		- [ ] Esempio Mini Casa [assignee:: [[Moccia]]]
+	- [ ] VLAN previste per management, staff, ospiti, sicurezza, sale eventi, domotica/IoT e dispositivi multimediali [assignee:: [[Rosso]]] [assignee:: [[Moccia]]]
+	- [ ] Separazione traffico guest / staff / camere / Smart TV / tablet [assignee:: [[Rosso]]] [assignee:: [[Moccia]]]
+- [ ] Documentare infrastruttura cablata [group:: [[Rete]]] [assignee:: [[Rosso]]] [assignee:: [[Moccia]]]
 	- [ ] La Meraviglia: switch principale, switch per piano, PoE, aggregazione, rack e prese RJ45
 	- [ ] L'Incanto: cablaggio, eventuali rack secondari e collegamento verso firewall di filiale / CED centrale
 	- [ ] Il Sogno: reception, uffici, CED e mini-case
 	- [ ] Sale meeting/eventi: Wi-Fi dedicato e postazione PC per proiettore
-- [ ] Documentare copertura wireless
+- [ ] Documentare copertura wireless [group:: [[Rete]]] [assignee:: [[Valenza]]] [assignee:: [[Regaldo]]]
 	- [ ] Criterio di dimensionamento AP basato sui metri quadri
 	- [ ] Wi-Fi guest per ospiti (Nome wifi, tipo psw (WPA3))
 	- [ ] Wi-Fi aziendale integrato, dove possibile, con Active Directory / NPS
 	- [ ] Rete meeting per ospiti/eventi
-- [ ] Documentare firewall e VPN
+- [ ] Documentare firewall e VPN [group:: [[Rete]]] [assignee:: [[Valenza]]] [assignee:: [[Regaldo]]]
 	- [ ] Firewall centrale CED NGFW
 	- [ ] Firewall pfSense di filiale per La Meraviglia
 	- [ ] Firewall pfSense di filiale per L'Incanto
@@ -64,13 +63,13 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] VPN remota per IT, direzione e contabilita con MFA
 	- [ ] Local breakout Internet per guest, Smart TV, tablet, camere e sale meeting
 	- [ ] Logging verso CED e IDS/IPS opzionale
-- [ ] Documentare continuita operativa rete
+- [ ] Documentare continuita operativa rete [group:: [[Rete]]] [assignee:: [[Valenza]]] [assignee:: [[Regaldo]]]
 	- [ ] UPS per apparati critici e connessione Internet
 	- [ ] Kit router mini-case preconfigurato per sostituzione rapida
 
-### Documentazione CED e infrastruttura Windows
+### Documentazione CED e infrastruttura Windows [group:: [[Infra-IT]]]
 - High priority
-- [ ] Documentare architettura CED [group:: [[Infra CED]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
+- [ ] Documentare architettura CED [group:: [[Infra-IT]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
 	- [ ] Due server fisici con hypervisor ESXi [assignee:: [[Soffia]]]
 	- [ ] Distribuzione VM tra host 1 e host 2 [assignee:: [[Soffia]]]
 	- [ ] NAS / backup appliance / storage dedicato [assignee:: [[Soffia]]]
@@ -101,20 +100,20 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Controllo USB dove necessario [assignee:: [[Bracco]]]
 	- [ ] Patch management gestito centralmente [assignee:: [[Bracco]]]
 
-### Documentazione dati, sicurezza e procedure [group:: [[Infra CED]]] [group:: [[Rete]]]
+### Documentazione dati, sicurezza e procedure [group:: [[Infra-IT]]] [group:: [[Rete]]]
 - low priority
-- [ ] Documentare archiviazione, protezione, gestione e condivisione dati [group:: [[Infra CED]]] 
-	- [ ] File Server Windows con condivisioni SMB integrate con Active Directory [group:: [[Infra CED]]] 
-	- [ ] Cartelle di reparto e permessi NTFS [group:: [[Infra CED]]] 
-	- [ ] Cartella condivisa inter-hotel per parte gestionale [group:: [[Infra CED]]] 
-	- [ ] Backup, snapshot, restore e copia offsite/cloud[group:: [[Infra CED]]] 
-- [ ] Documentare sicurezza informatica security-by-design [group:: [[Infra CED]]] [group:: [[Rete]]]
+- [ ] Documentare archiviazione, protezione, gestione e condivisione dati [group:: [[Infra-IT]]]
+	- [ ] File Server Windows con condivisioni SMB integrate con Active Directory [group:: [[Infra-IT]]]
+	- [ ] Cartelle di reparto e permessi NTFS [group:: [[Infra-IT]]]
+	- [ ] Cartella condivisa inter-hotel per parte gestionale [group:: [[Infra-IT]]]
+	- [ ] Backup, snapshot, restore e copia offsite/cloud [group:: [[Infra-IT]]]
+- [ ] Documentare sicurezza informatica security-by-design [group:: [[Infra-IT]]] [group:: [[Rete]]]
 	- [ ] Segmentazione VLAN e regole firewall [group:: [[Rete]]]
-	- [ ] Protezione PC, server, tablet, Smart TV e dispositivi camere [group:: [[Infra CED]]] 
+	- [ ] Protezione PC, server, tablet, Smart TV e dispositivi camere [group:: [[Infra-IT]]]
 	- [ ] MFA per VPN/accessi remoti [group:: [[Rete]]]
-	- [ ] Monitoraggio/alert heartbeat per mini-case (Come lo faremmo) [group:: [[Infra CED]]] 
+	- [ ] Monitoraggio/alert heartbeat per mini-case (Come lo faremmo) [group:: [[Infra-IT]]]
 
-### Documentazione servizi cliente e multimediale [group:: [[Infra CED]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
+### Documentazione servizi cliente e multimediale [group:: [[Infra-IT]]] [assignee:: [[Soffia]]] [assignee:: [[Bracco]]]
 - low priority
 - [ ] Documentare CMS multimediale
 	- [ ] Gestione contenuti centralizzata
@@ -123,32 +122,32 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] MEDIA01 come componente possibile
 	- [ ] Diffusione dei contenuti all'hospitality TV, sale meeting, camere
 
-### Hardware, software e budget [group:: [[Infra CED]]] [group:: [[Rete]]] 
+### Hardware, software e budget [group:: [[Infra-IT]]] [group:: [[Rete]]]
 - low priority
 - [ ] Trasformare [[Dispositivi]] in distinta tecnica allegata
-	- [ ] Server fisici / host ESXi
-	- [ ] NAS / storage
+	- [ ] Server fisici / host ESXi [group:: [[Infra-IT]]]
+	- [ ] NAS / storage [group:: [[Infra-IT]]]
 	- [ ] Firewall centrali e di filiale [group:: [[Rete]]]
 	- [ ] Switch, PoE, rack, patch panel, prese RJ45 [group:: [[Rete]]]
 	- [ ] Access point [group:: [[Rete]]]
 	- [ ] Router mini-case [group:: [[Rete]]]
-	- [ ] Hospitality TV / Smart TV 
+	- [ ] Hospitality TV / Smart TV [group:: [[Infra-IT]]]
 	- [ ] Tablet in camera [group:: [[Rete]]]
 	- [ ] PC, telefoni VoIP, telecamere IP [group:: [[Rete]]]
 	- [ ] UPS e condizionatore CED [group:: [[Rete]]]
 	- [ ] Kit sale meeting e digital signage [group:: [[Rete]]]
 - [ ] Documentare software e tecnologie implementate
-	- [ ] Windows Server / Active Directory
-	- [ ] ESXi
+	- [ ] Windows Server / Active Directory [group:: [[Infra-IT]]]
+	- [ ] ESXi [group:: [[Infra-IT]]]
 	- [ ] pfSense [group:: [[Rete]]]
-	- [ ] WireGuard
+	- [ ] WireGuard [group:: [[Infra-IT]]]
 	- [ ] IPsec/IKEv2 [group:: [[Rete]]] 
-	- [ ] NPS/RADIUS
-	- [ ] SMB/NTFS
-	- [ ] CMS multimediale / Hospitality TV platform
-	- [ ] Software gestionale servizi cliente
-- [ ] Preparare sezione budget tecnico [group:: [[Rete]]] 
-	- [ ] Budget minimo
+	- [ ] NPS/RADIUS [group:: [[Infra-IT]]]
+	- [ ] SMB/NTFS [group:: [[Infra-IT]]]
+	- [ ] CMS multimediale / Hospitality TV platform [group:: [[Infra-IT]]]
+	- [ ] Software gestionale servizi cliente [group:: [[Infra-IT]]]
+- [ ] Preparare sezione budget tecnico [group:: [[Rete]]] [group:: [[Infra-IT]]]
+	- [ ] Budget minimo 
 	- [ ] Budget premium
 	- [ ] Stima specifiche server
 	- [ ] Costi Axion: analisi, progettazione, installazione, configurazione, test e documentazione finale
@@ -169,4 +168,3 @@ Le cose da scrivere nella relazione tecnica
 	- [ ] Nessuna credenziale reale nel documento
 	- [ ] Coerenza tra documentazione, presentazione e `Testo.pdf`
 	- [ ] Distinguere chiaramente soluzioni base e opzioni premium
-
