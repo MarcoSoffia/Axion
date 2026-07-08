@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_avanzamento/Firewall.md",
+                "file": "Task_avanzamento/VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firewall"
+              "title": "VPN"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -174,34 +174,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
     }
   },
   "active": "6f2056bc9f963466",
   "lastOpenFiles": [
+    "meraviglia.png",
+    "Untitled.base",
     "Task - Proposta  Cliente.md",
     "Task.md",
-    "Untitled.base",
-    "Relazione VPN client-to-site IT esterni.pdf",
-    "Axion.md",
-    "Piano indirizzamento ip/Piano di indirizzamento rete - meraviglia.pdf",
-    "Task_avanzamento/Firewall.md",
     "sogno.png",
-    "mini-casa.png",
-    "meraviglia.png",
-    "incanto.png",
-    "Task_avanzamento",
-    "Piano indirizzamento ip/Piano indirizzamento reti - incanto.pdf",
-    "Piano indirizzamento ip/piano indirizzamento rete - sogno.pdf",
-    "Piano indirizzamento ip",
     "Rete.md",
     "Software.md",
+    "Task_avanzamento/VPN.md",
+    "Relazione_VPN_Client_To_site.pdf",
+    "Task_avanzamento/Firewall.md",
+    "Relazione_VPN_Site_to_Site_IKEv2_Senza_Stato.pdf",
+    "Relazione_Firewall_Centrale_NGFW_Impaginata.pdf",
+    "ProgettazioneHotel/HOTEL_1 La Meraviglia.JPG",
+    "Piano indirizzamento ip/Piano indirizzamento reti - incanto.pdf",
+    "Piano indirizzamento ip/piano indirizzamento rete - sogno.pdf",
+    "Piano indirizzamento ip/Piano di indirizzamento rete - meraviglia.pdf",
+    "ProgettazioneHotel/HOTEL_3 Sogno primo piano.JPG",
+    "ProgettazioneHotel/HOTEL_3 Sogno piano terra.JPG",
+    "ProgettazioneHotel/HOTEL_2 Incanto.JPG",
+    "Relazione VPN client-to-site IT esterni.pdf",
+    "Axion.md",
+    "mini-casa.png",
+    "incanto.png",
+    "Task_avanzamento",
+    "Piano indirizzamento ip",
     "2026-07-07.md",
     "staff/Regaldo.md",
     "staff/Valenza.md",
@@ -209,8 +217,6 @@
     "staff/Soffia.md",
     "staff/Bracco.md",
     "staff/Moccia.md",
-    "staff",
-    "Architettura software CED.drawio",
     "Domande-Software.md"
   ]
 }
