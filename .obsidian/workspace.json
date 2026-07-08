@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_avanzamento/VPN.md",
+                "file": "Task_avanzamento/Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VPN"
+              "title": "Firewall"
             }
           }
         ]
@@ -185,6 +185,11 @@
   },
   "active": "6f2056bc9f963466",
   "lastOpenFiles": [
+    "Task_avanzamento/VPN.md",
+    "Cablaggio/sogno.md",
+    "Cablaggio/incanto.md",
+    "Cablaggio/Meraviglia.md",
+    "Cablaggio",
     "meraviglia.png",
     "Untitled.base",
     "Task - Proposta  Cliente.md",
@@ -192,7 +197,6 @@
     "sogno.png",
     "Rete.md",
     "Software.md",
-    "Task_avanzamento/VPN.md",
     "Relazione_VPN_Client_To_site.pdf",
     "Task_avanzamento/Firewall.md",
     "Relazione_VPN_Site_to_Site_IKEv2_Senza_Stato.pdf",
@@ -209,7 +213,6 @@
     "mini-casa.png",
     "incanto.png",
     "Task_avanzamento",
-    "Piano indirizzamento ip",
     "2026-07-07.md",
     "staff/Regaldo.md",
     "staff/Valenza.md",
