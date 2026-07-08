@@ -56,7 +56,7 @@ Per ogni client devono essere documentati:
 - secret RADIUS;
 - policy associata.
 
-I secret RADIUS non devono essere inseriti nella documentazione consegnabile o nel repository.
+I secret RADIUS non sono documentati, chiaramente.
 
 ### Wi-Fi aziendale
 
