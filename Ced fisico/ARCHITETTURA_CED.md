@@ -87,6 +87,8 @@ Requisiti consigliati:
 
 BK01/NAS usa l'indirizzo `10.30.11.14` nella VLAN 11 Server_CED. Deve ricevere backup di DC01, DC02, FS01, NPS01, MEDIA01 e GESTIONALE01, includendo System State dei Domain Controller, dati FS01, configurazioni NPS, contenuti MEDIA01 ed export del gestionale.
 
+Il dettaglio operativo di backup, retention, snapshot e copia offsite/cloud è documentato in [BK01_NAS.md](BK01_NAS.md).
+
 ### Condizionatore CED
 
 - Marca proposta: Daikin, split inverter dedicato al CED.
