@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "03897654978e81b5",
+    "id": "0a0db29b4aedf328",
     "type": "split",
     "children": [
       {
-        "id": "66834d957ffdae90",
+        "id": "89aed42b369d6918",
         "type": "tabs",
         "children": [
           {
-            "id": "6f2056bc9f963466",
+            "id": "2899ebf6898f8ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Task_avanzamento/Firewall.md",
+                "file": "Task_avanzamento/Access Point.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Firewall"
+              "title": "Access Point"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "855c6a66c3bd5042",
+    "id": "7558c234f4a44771",
     "type": "split",
     "children": [
       {
-        "id": "2e48c2963c4ac6fa",
+        "id": "4b11b7aada0be399",
         "type": "tabs",
         "children": [
           {
-            "id": "1e93bb066ff86f8e",
+            "id": "a4452f6b14f920d9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "80ae55e47d1bb911",
+            "id": "92392439688a86e3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Ricerca"
             }
           },
           {
-            "id": "36dbf05e7a42e0dc",
+            "id": "27109f5b825d8557",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Segnalibri"
             }
           }
         ]
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "ddac85f25ad7df6a",
+    "id": "aa20e5812a12baba",
     "type": "split",
     "children": [
       {
-        "id": "f5cfd3141d31f4ad",
+        "id": "6dbc68c00d794911",
         "type": "tabs",
         "children": [
           {
-            "id": "b0806eef3c82de57",
+            "id": "322cac5d328ba3fb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rete.md",
+                "file": "Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rete"
+              "title": "Riferimenti a Task"
             }
           },
           {
-            "id": "6e51bcad27c8303b",
+            "id": "b7a4c51f84793f63",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rete.md",
+                "file": "Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rete"
+              "title": "Collegamenti in uscita da Task"
             }
           },
           {
-            "id": "64c9eac283e60ec5",
+            "id": "774aa7f75e2bfe5a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
-            "id": "ae5f73acce90b0d8",
+            "id": "9b0ac9856ea2ea54",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,22 +147,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Tutte le proprietà"
             }
           },
           {
-            "id": "000041217aa1273a",
+            "id": "c73a769115771127",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rete.md",
+                "file": "Task.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rete"
+              "title": "Struttura di Task"
             }
           }
         ]
@@ -174,6 +174,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
@@ -183,43 +184,53 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "6f2056bc9f963466",
+  "active": "2899ebf6898f8ec6",
   "lastOpenFiles": [
-    "Task_avanzamento/VPN.md",
-    "Cablaggio/sogno.md",
-    "Cablaggio/incanto.md",
-    "Cablaggio/Meraviglia.md",
-    "Cablaggio",
-    "meraviglia.png",
+    "Task_avanzamento/Access Point.md.tmp.17012.67a5796d0994",
+    "Task_avanzamento/Firewall.md",
+    "Task_avanzamento/Access Point.md.tmp.17012.37aee292ff90",
+    "Task_avanzamento/Access Point.md",
     "Untitled.base",
     "Task - Proposta  Cliente.md",
     "Task.md",
     "sogno.png",
     "Rete.md",
-    "Software.md",
-    "Relazione_VPN_Client_To_site.pdf",
-    "Task_avanzamento/Firewall.md",
     "Relazione_VPN_Site_to_Site_IKEv2_Senza_Stato.pdf",
+    "Relazione_VPN_Client_To_site.pdf",
     "Relazione_Firewall_Centrale_NGFW_Impaginata.pdf",
-    "ProgettazioneHotel/HOTEL_1 La Meraviglia.JPG",
-    "Piano indirizzamento ip/Piano indirizzamento reti - incanto.pdf",
-    "Piano indirizzamento ip/piano indirizzamento rete - sogno.pdf",
-    "Piano indirizzamento ip/Piano di indirizzamento rete - meraviglia.pdf",
-    "ProgettazioneHotel/HOTEL_3 Sogno primo piano.JPG",
-    "ProgettazioneHotel/HOTEL_3 Sogno piano terra.JPG",
-    "ProgettazioneHotel/HOTEL_2 Incanto.JPG",
-    "Relazione VPN client-to-site IT esterni.pdf",
-    "Axion.md",
     "mini-casa.png",
+    "meraviglia.png",
     "incanto.png",
-    "Task_avanzamento",
-    "2026-07-07.md",
-    "staff/Regaldo.md",
+    "Axion.md",
+    "Task_avanzamento/Access Point.md.tmp.17012.bf67d35aefe2",
+    "Task_avanzamento/VPN.md",
     "staff/Valenza.md",
-    "staff/Rosso.md",
     "staff/Soffia.md",
-    "staff/Bracco.md",
+    "staff/Rosso.md",
+    "staff/Regaldo.md",
     "staff/Moccia.md",
-    "Domande-Software.md"
+    "staff/Bracco.md",
+    "staff",
+    "Task_avanzamento",
+    "Piano indirizzamento ip/piano indirizzamento rete - sogno.pdf",
+    "Piano indirizzamento ip/Piano indirizzamento reti - incanto.pdf",
+    "Cablaggio/sogno.md",
+    "Cablaggio/Meraviglia.md",
+    "Cablaggio/incanto.md",
+    "img/logical_edit/Sogno_logica_bare.png",
+    "img/logical_edit/Mini-casa.png",
+    "img/logical_edit/Meraviglia_logica_bare.png",
+    "img/logical_edit/l'incanto_logica_bare.png",
+    "img/logical/sogno.png",
+    "img/logical/incanto.png",
+    "VPN.md",
+    "Servizi Windows/NPS01.md",
+    "Servizi Windows/MEDIA01.md",
+    "Servizi Windows/Gestione utenti e accessi .md",
+    "Servizi Windows/GESTIONALE01.md",
+    "Servizi Windows/FS01.md",
+    "Servizi Windows/DC02.md",
+    "Servizi Windows/DC01.md",
+    "Servizi Windows/Account personali per dipendenti.md"
   ]
 }
